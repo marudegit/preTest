@@ -7,7 +7,7 @@
 main {
   width: 960px;
   margin: 50px 0;
-  text-align: center;
+  margin: 0 auto;
 }
 
 .item-list {
@@ -41,9 +41,11 @@ main {
 .box:last-child {
   background-color: #ff8c00;
 }
+
 .box:nth-child(3n) {
-  margin-right: 10%;
+  margin-right: 0;
 }
+
 .box:nth-last-child(-n + 3) {
   margin-bottom: 0;
 }
